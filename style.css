@@ -213,8 +213,8 @@ span {
   top: 1.6rem;
 }
 
-/* For smaller screen view */
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 720px) and (min-width: 360px) and (orientation: portrait) {
+  /* Your CSS styles for the Infinix Smart 6 here */
   header {
     height: 13rem;
   }
@@ -230,7 +230,7 @@ span {
   .todo {
     letter-spacing: 0.5rem;
     font-size: 1.5rem;
-    margin-right: 14rem;
+    margin-right: 13rem;
   }
 
   header img {
@@ -240,22 +240,23 @@ span {
   .cont {
     left: 25%;
     top: 50%;
-    margin-left: -6.8rem;
+    margin-left: -7rem;
   }
 
   .todo-input {
     width: 18.5rem;
-    margin-left: -5.1rem;
+    margin-left: -5.3rem;
   }
 
   .todo-container {
-    left: 5.7%;
+    left: 4%;
     width: 21.3rem;
     margin-bottom: 1rem;
   }
 
   .down-wrapper {
-    position: relative; /* Create a wrapper for down */
+    position: relative;
+    /* Create a wrapper for down */
   }
 
   .down {
